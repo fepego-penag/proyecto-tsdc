@@ -1,2 +1,4 @@
 {
+    "baseUrl": "http://localhost:2368/ghost",
+    "chromeWebSecurity": false
 }
