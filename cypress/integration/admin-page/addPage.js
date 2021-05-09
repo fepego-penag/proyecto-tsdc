@@ -11,12 +11,23 @@ context('Actions', () => {
     beforeEach(() => {
         Cypress.Cookies.preserveOnce('ghost-admin-api-session')
     })
-    
+
     it('Fill username & password then log in ', function () {
         cy.visit('http://localhost:2368/ghost/#/signin')
         cy.get('.email').type(this.data.username).debug()
         cy.get('.password').type(this.data.password)
         cy.get('.login').click()
+        cy.wait(500)
+    })
+
+    it('Select page administration', function () {
+        cy.contains('Pages').parent().find('a').click()
+        cy.wait(500)
+    })
+
+    it('click on button "New Page"', function () {
+        cy.contains('New page').parent().find('a').click()
+        cy.wait(500)
     })
 
 });
