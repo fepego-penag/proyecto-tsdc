@@ -30,11 +30,10 @@
   1. Realizar el login como administrador
   2. En la dashboard seleccionar la pestaña "Pages"
   3. Crear una página con el título "Mi cuarta página" y volver al listado de páginas actuales.
-  4. Seleccionar la página con titulo "Mi cuarta página"
-  5. Dar clic en el icono de configuración
-  6. Bajar el scroll hasta la parte final y seleccionar "Delete Page"
-  7. Confirmar el mensaje emergente dando clic la opción "Delete"
-  8. Devolverse a la pestaña de pages y verificar que la página fue eliminada correctamente
+  4. Seleccionar la página con titulo "Mi cuarta página" y dar clic en el icono de configuración
+  5. Bajar el scroll hasta la parte final y seleccionar "Delete Page"
+  6. Confirmar el mensaje emergente dando clic la opción "Delete"
+  7. Devolverse a la pestaña de pages y verificar que la página fue eliminada correctamente
 ### Administración Tag
 ### Administración de usuarios
 ### Configuraciones Generales

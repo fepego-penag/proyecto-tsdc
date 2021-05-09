@@ -30,9 +30,27 @@ context('Actions', () => {
         cy.get('textarea[placeholder="Page Title"]').type('Mi cuarta página')
         cy.get('div[data-kg="editor"]').click()
         cy.visit('http://localhost:2368/ghost/#/pages')
+        cy.wait(500)
     })
 
-    it('Search the page "Mi tercer página" and select', function () {
+    it('Search the page "Mi cuarta página", select page and click on menu "Settings"', function () {
         cy.get('a[title="Edit this post"]').contains('Mi cuarta página').click()
+        cy.get('button[title="Settings"]').click()
+        cy.wait(500)
+    })
+
+    it('Scroll down to the bottom and select "Delete Page"', function () {
+        cy.get('button').contains('Delete').parent().find('span').click()
+        cy.wait(500)
+    })
+
+    it('Confirm the pop-up message by clicking on the "Delete" option', function () {
+        cy.get('div[class="modal-footer"]').contains('Delete').click({force:true})
+        cy.wait(500)
+    })
+
+    it('Check if new page appears on list', function () {
+        cy.visit('http://localhost:2368/ghost/#/pages')
+        cy.wait(500)
     })
 });
