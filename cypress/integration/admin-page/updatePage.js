@@ -19,4 +19,14 @@ context('Actions', () => {
         cy.get('.login').click()
         cy.wait(500)
     })
+
+    it('Select page administration', function () {
+        cy.contains('Pages').parent().find('a').click()
+        cy.wait(500)
+    })
+
+    it('Search the page "Mi primera página" y seleccionarla', function () {
+        cy.get('a[title="Edit this post"]').contains('Mi primera página').click()
+        cy.wait(500)
+    })
 });

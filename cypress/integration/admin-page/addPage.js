@@ -20,7 +20,7 @@ context('Actions', () => {
         cy.wait(500)
     })
 
-    it('Select page administration and click on button "New Page"', function () {
+    it('Select page administration"', function () {
         cy.contains('Pages').parent().find('a').click()
         cy.wait(500)
     })
