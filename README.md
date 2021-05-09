@@ -17,7 +17,7 @@
   4. Seleccionar la página con titulo "Mi segunda página"
   5. Borrar el texto del título y cambiar el texto por "Modificando mi primer página"
   6. Devolverse a la pestaña de pages y verificar que la página fue modificada correctamente
-  * *Tercer escenario (Publicar una página)*
+* *Tercer escenario (Publicar una página)*
   ------------------
   1. Realizar el login como administrador
   2. En la dashboard seleccionar la pestaña "Pages"
