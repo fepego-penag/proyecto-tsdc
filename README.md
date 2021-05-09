@@ -2,7 +2,7 @@
 ## Funcionalidades bajo prueba en GHOST
 ### Administración Post
 ### Administración Page
-*Primer escenario*
+*Primer escenario (Crear una página)*
 |#|Descripción|
 | ----- | ---- |
 |1|Realizar el login como administrador|
