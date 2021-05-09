@@ -32,7 +32,7 @@ context('Actions', () => {
 
     it('Fill form page title', function () {
         cy.get('textarea[placeholder="Page Title"]').type('Mi primera página')
-        cy.wait(500)
+        cy.get('article').type("co")
     })
 
     it('Check if new page appears on list', function () {
