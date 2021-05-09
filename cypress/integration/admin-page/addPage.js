@@ -20,13 +20,23 @@ context('Actions', () => {
         cy.wait(500)
     })
 
-    it('Select page administration', function () {
+    it('Select page administration and click on button "New Page"', function () {
         cy.contains('Pages').parent().find('a').click()
         cy.wait(500)
     })
 
     it('click on button "New Page"', function () {
         cy.contains('New page').parent().find('a').click()
+        cy.wait(500)
+    })
+
+    it('Fill form page title', function () {
+        cy.get('textarea[placeholder="Page Title"]').type('Mi primera página')
+        cy.wait(500)
+    })
+
+    it('Check if new page appears on list', function () {
+        cy.visit('http://localhost:2368/ghost/#/pages')
         cy.wait(500)
     })
 
