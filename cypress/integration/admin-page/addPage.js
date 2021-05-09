@@ -36,8 +36,7 @@ context('Actions', () => {
     })
 
     it('Check if new page appears on list', function () {
-        cy.visit('http://localhost:2368/ghost/#/pages')
+        cy.contains('Pages').parent().find('a').click()
         cy.wait(500)
     })
-
 });
