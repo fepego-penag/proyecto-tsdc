@@ -34,6 +34,14 @@
   5. Bajar el scroll hasta la parte final y seleccionar "Delete Page"
   6. Confirmar el mensaje emergente dando clic la opción "Delete"
   7. Devolverse a la pestaña de pages y verificar que la página fue eliminada correctamente
-### Administración Tag
-### Administración de usuarios
-### Configuraciones Generales
+## Administración Tag
+## Administración de usuarios
+* *Tercer escenario (Modificar la biografía del usuario Ghost)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Staff"
+  3. Crear una página con el título "Mi tercer página" y volver al listado de páginas actuales.
+  4. Seleccionar la página con titulo "Mi tercer página"
+  5. Realizar la publicación de la página
+  6. Devolverse a la pestaña de pages y verificar que la página el estado sea "Published"
+## Configuraciones Generales
