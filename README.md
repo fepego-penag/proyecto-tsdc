@@ -1,6 +1,47 @@
 # Pruebas automatizadas Entregable Semana 5
 # Funcionalidades bajo prueba en GHOST
 ## Administración Post
+* *Primer escenario (Crear un Post)*
+  ------------------
+  1. Realizar el login como administrador|
+  2. En la dashboard seleccionar la pestaña "Posts"|
+  3. Dar clic en "New post"|
+  4. Ingresar un texto para el titulo del post|
+  5. Regresar a la vista posts|
+* *Segundo escenario (Editar un Post)*
+  ------------------
+  1. Realizar el login como administrador|
+  2. En la dashboard seleccionar la pestaña "Posts"|
+  3. Seleccionar el primer post con estado "Draft"|
+  4. Activar el cuerpo del post e ingresar texto de prueba|
+  5. Regresar a la vista posts|
+* *Tercer escenario (Publicar un Post)*
+  ------------------
+  1. Realizar el login como administrador|
+  2. En la dashboard seleccionar la pestaña "Posts"|
+  3. Seleccionar el primer post con estado "Draft"|
+  4. Dar clic en Publish|
+  5. Dar clic en la opción "Set it live now"|
+  6. Dar clic en el botón "Publish"|
+  7. Regresar a la vista posts|
+* *Cuarto escenario (Desactivar un Post)*
+  ------------------
+  1. Realizar el login como administrador|
+  2. En la dashboard seleccionar la pestaña "Posts"|
+  3. Dar clic sobre el primer post con estado "Published"|
+  4. Dar clic en "Update"|
+  5. Dar clic en "Unpublished"|
+  6. Dar clic en el botón "Unpublish"|
+  7. Regresar a la vista posts|
+* *Quinto escenario (Eliminar un Post)*
+  ------------------
+  1. Realizar el login como administrador|
+  2. En la dashboard seleccionar la pestaña "Posts"|
+  3. Dar clic sobre el primer post de la lista|
+  4. Dar clic en el icono "Settings"|
+  5. Dar clic en "Delete post"|
+  6. Dar clic en el botón "Delete" de la ventana desplegada|
+  7. Regresar a la vista posts|
 ## Administración Page
 * *Primer escenario (Crear una página)*
   ------------------
@@ -36,6 +77,15 @@
   7. Devolverse a la pestaña de pages y verificar que la página fue eliminada correctamente
 ## Administración Tag
 ## Administración de usuarios
+* *Primer escenario (Modificar Role de un usuario)*
+  ------------------
+  1. Realizar el login como administrador|
+  2. En la dashboard seleccionar la pestaña "Staff"|
+  3. Dar clic sobre el primer "usuario" de la lista|
+  4. Dar clic sobre el "Role" activo|
+  5. Seleccionar el "Role" "Editor"|
+  6. Dar clic en el botón "Save"|
+  7. Regresar a la vista "Staff"|
 * *Tercer escenario (Modificar la biografía del usuario Ghost)*
   ------------------
   1. Realizar el login como administrador
