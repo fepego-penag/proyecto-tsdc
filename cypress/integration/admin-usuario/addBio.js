@@ -20,9 +20,16 @@ context('Actions', () => {
         cy.wait(500)
     })
 
-    it('Select user administration', function () {
+    it('In the dashboard select the tab "Staff and enter the user Ghost', function () {
         cy.contains('Staff').parent().find('a').click()
+        cy.wait(500)
+        cy.contains('Ghost').click()
         cy.wait(500)
     })
 
+    it('In the dashboard select the tab "Staff and enter the user Ghost', function () {
+        cy.get('textarea[id="user-bio"]').clear()
+        cy.get('textarea[id="user-bio"]').type('Somos estudiantes de la maestría en ingeniería de software, actualmente nos encontramos en proceso de aprendizaje para aplicar pruebas E2E con la api de automatización Cypress')
+        cy.wait(500)
+    })
 });
