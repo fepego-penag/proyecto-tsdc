@@ -32,11 +32,11 @@ context('Actions', () => {
 
     it('Fill form page title', function () {
         cy.get('textarea[placeholder="Page Title"]').type('Mi primera página')
-        cy.get('article').type("co")
+        cy.get('div[data-kg="editor"]').click()
     })
 
     it('Check if new page appears on list', function () {
-        cy.contains('Pages').parent().find('a').click()
+        cy.visit('http://localhost:2368/ghost/#/pages')
         cy.wait(500)
     })
 });
