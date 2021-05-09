@@ -40,7 +40,7 @@
   ------------------
   1. Realizar el login como administrador
   2. En la dashboard seleccionar la pestaña "Staff e ingresar al usuario Ghost"
-  4. Limpiar la biografía y escribir "Somos estudiantes de la maestría en ingeniería de software, actualmente nos encontramos en proceso de aprendizaje para aplicar pruebas E2E con la api de automatización Cypress".
-  5. Realizar la publicación de la página
-  6. Devolverse a la pestaña de pages y verificar que la página el estado sea "Published"
+  3. Limpiar la biografía y escribir "Somos estudiantes de la maestría en ingeniería de software, actualmente nos encontramos en proceso de aprendizaje para aplicar pruebas E2E con la api de automatización Cypress".
+  4. Guardar los cambios y nos devolvemos a la sección de staff.
+  5. Volver a ingresar al usuario Ghost para verificar los cambios en la biografia.
 ## Configuraciones Generales
