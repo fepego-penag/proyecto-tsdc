@@ -21,9 +21,10 @@
   ------------------
   1. Realizar el login como administrador
   2. En la dashboard seleccionar la pestaña "Pages"
-  3. Crear una página con el título "Mi tercera página"
-  4. Realizar la publicación de la página
-  5. Devolverse a la pestaña de pages y verificar que la página el estado sea "Published"
+  3. Crear una página con el título "Mi tercer página" y volver al listado de páginas actuales.
+  4. Seleccionar la página con titulo "Mi tercer página"
+  5. Realizar la publicación de la página
+  6. Devolverse a la pestaña de pages y verificar que la página el estado sea "Published"
 ### Administración Tag
 ### Administración de usuarios
 ### Configuraciones Generales

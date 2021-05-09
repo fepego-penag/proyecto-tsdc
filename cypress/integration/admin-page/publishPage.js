@@ -27,22 +27,18 @@ context('Actions', () => {
 
     it('click on button "New Page", fill form page title and check if new page appears on list', function () {
         cy.contains('New page').parent().find('a').click()
-        cy.get('textarea[placeholder="Page Title"]').type('Mi segunda página')
-        cy.get('article').type("co")
-        cy.contains('Pages').parent().find('a').click()
-        cy.wait(500)
+        cy.get('textarea[placeholder="Page Title"]').type('Mi tercer página')
+        cy.get('div[data-kg="editor"]').click()
+        cy.visit('http://localhost:2368/ghost/#/pages')
     })
 
-    it('Search the page "Mi segunda página" and select', function () {
-        cy.get('a[title="Edit this post"]').contains('Mi segunda página').click()
-        cy.wait(500)
+    it('Search the page "Mi tercer página" and select', function () {
+        cy.get('a[title="Edit this post"]').contains('Mi tercer página').click()
     })
 
-    it('Clear title and Update title of "Modificando mi primer página"', function () {
-        cy.get('textarea[placeholder="Page Title"]').clear()
-        cy.get('textarea[placeholder="Page Title"]').type('Modificando mi primer página')
-        cy.contains('Pages').parent().find('a').click()
-        cy.wait(500)
+    it('click on menu "Publish" and click button publish', function () {
+        cy.contains('Publish').parent().find('span').click()
+        cy.get('button').contains('Publish').parent().find('span').click()
     })
 
     it('Check if new page appears on list', function () {
