@@ -96,6 +96,16 @@
   5. Seleccionar el "Role" "Editor"
   6. Dar clic en el botón "Save"
   7. Regresar a la vista "Staff"
+
+* *Segundo escenario (Modificar cover de un usuario)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Staff"
+  3. Dar clic sobre el primer "usuario" de la lista
+  4. Dar clic sobre el "Change Cover"
+  6. Dar clic en el botón "Save"
+  7. Regresar a la vista "Staff"
+
 * *Tercer escenario (Modificar la biografía del usuario Ghost)*
   ------------------
   1. Realizar el login como administrador
