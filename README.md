@@ -1,4 +1,14 @@
 # Pruebas automatizadas Entregable Semana 5
+# Instrucciones para ejecutar los escenarios
+*A continuación se descbribe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Cypress*:
+------------------
+  1. Tener funcionando Ghost en su versión 3.3.0 de forma local, asegurandose que el puerto de salida es http://localhost:2368/
+  2. Clonar este repositorio
+  3. Por medio de un editor de texto se debe configurar las credenciales para correr las pruebas exitosamente.
+  4. El archivo de configuración de credenciales se encuentra en : "cypress/fixtures/login_credentials.json", por favor poner los datos del correo y password utilizados en la cofiguración de su ambiente local para Ghost 3.3.0.
+  5. Ejecutar por medio de consola el siguiente comando: cypress run --headless --spec "cypress/integration/*".
+  6. La herramienta cypress se ejecutará en modo Headless y podra visualizar los videos de cada una de las pruebas.
+  7. Para visualizar el reporte en video puede hacerlo desde la ruta: "cypress/videos/*" en cada carpeta se encuentra las funcionalidades y en cada funcionalidad puede visualizar los 4 escenarios propuestos.
 # Funcionalidades bajo prueba en GHOST
 ## Administración Post
 * *Primer escenario (Crear un Post)*
