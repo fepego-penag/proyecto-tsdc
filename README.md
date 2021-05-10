@@ -114,3 +114,9 @@
   4. Guardar los cambios y nos devolvemos a la sección de staff.
   5. Volver a ingresar al usuario Ghost para verificar los cambios en la biografia.
 ## Configuraciones Generales
+* *Primer escenario (Modificar privacidad del sitio)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "General"
+  3. Dar clic sobre el boton "Make this site private"
+  4. Dar clic sobre el boton "Save settings"
