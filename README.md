@@ -120,3 +120,27 @@
   2. En la dashboard seleccionar la pestaña "General"
   3. Dar clic sobre el boton "Make this site private"
   4. Dar clic sobre el boton "Save settings"
+
+* *Segundo escenario (Modificar metadata de ajustes)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "General"
+  3. Dar clic sobre el boton "Expand" de la seccion Meta data
+  4. Ingresar nuevo valor
+  5. Dar clic sobre el boton "Save settings"
+
+* *Tercer escenario (Modificar lenguaje de publicaciones)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "General"
+  3. Dar clic sobre el boton "Expand" de la seccion Publication Language
+  4. Ingresar nuevo valor
+  5. Dar clic sobre el boton "Save settings"
+
+* *Cuarto escenario (Modificar redes sociales)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "General"
+  3. Dar clic sobre el boton "Expand" de la seccion Social accounts
+  4. Ingresar nuevo valor
+  5. Dar clic sobre el boton "Save settings"
