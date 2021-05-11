@@ -207,13 +207,14 @@
   3. Dar clic sobre el boton "Make this site private"
   4. Dar clic sobre el boton "Save settings"
   
-* *Primer escenario (Login como administrador)*
+* *Segundo escenario (Login como administrador)*
   ------------------
   1. Realizar el login como administrador
   2. En la dashboard seleccionar la pestaña "General"
   
 ## Administración de usuarios
- * *primer escenario (Cambiar contraseña de usuario)*
+ * *Primer escenario (Cambiar contraseña de usuario)*
+   ------------------
     1. Realizar el login como administrador
     2. En la dashboard seleccionar la pestaña "Staff e ingresar al usuario Ghost"
     3. Buscar los campos de contraseña anterior y nueva contraseña. Luego llenar los campos de entrada!!
