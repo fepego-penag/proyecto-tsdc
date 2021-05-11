@@ -188,7 +188,7 @@
   4. Ingresar nuevo valor
   5. Dar clic sobre el boton "Save settings"
 
-# Instrucciones para ejecutar los escenarios en Ghost
+# Instrucciones para ejecutar los escenarios en Kraken
 *A continuación se descbribe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Kraken*:
 ------------------
   1. Tener funcionando Ghost en su versión 3.3.0 de forma local, asegurandose que el puerto de salida es http://localhost:2368/
