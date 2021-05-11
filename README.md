@@ -206,7 +206,7 @@
   2. En la dashboard seleccionar la pestaña "General"
   3. Dar clic sobre el boton "Make this site private"
   4. Dar clic sobre el boton "Save settings"
-  5. 
+  
 * *Primer escenario (Login como administrador)*
   ------------------
   1. Realizar el login como administrador
