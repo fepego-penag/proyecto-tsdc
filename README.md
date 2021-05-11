@@ -1,4 +1,11 @@
 # Pruebas automatizadas Entregable Semana 5
+## Integrantes
+| Nombre                              | Correo                                                          |
+| ----------------------------------- | ----------------------------------------------------------------|
+| Sonia Milena Castillo               | sm.castillo@uniandes.edu.co                                     |
+| Jhonnatan Eduardo Zamudio Palacios  | j.zamudiop@uniandes.edu.co                                      |
+| Miguel Angel Zapata Fraile          | ma.zapataf@uniandes.edu.co                                      |
+| Carlos Felipe Peña Gómez            | cf.pena1138@uniandes.edu.co                                     |
 # Instrucciones para ejecutar los escenarios
 *A continuación se descbribe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Cypress*:
 ------------------
