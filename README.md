@@ -187,3 +187,35 @@
   3. Dar clic sobre el boton "Expand" de la seccion Social accounts
   4. Ingresar nuevo valor
   5. Dar clic sobre el boton "Save settings"
+
+# Instrucciones para ejecutar los escenarios en Ghost
+*A continuación se descbribe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Ghost*:
+------------------
+  1. Tener funcionando Ghost en su versión 3.3.0 de forma local, asegurandose que el puerto de salida es http://localhost:2368/
+  2. Tener configurado Kraken en la maquina en la que se vaya a ejecutar la carpeta con las pruebas.
+  3. Para cada una de las pruebas detalladas en los .featire, se debe tener las credenciales de acceso como administrador Ghost.
+  4. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile setup.
+  5. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile run.
+  6. La herramienta Kraken se ejecutará y podra visualizar los snapshots de cada una de las pruebas.
+  7. Para visualizar el reporte en html puede hacerlo desde la ruta: "reports/*" en cada carpeta se encuentra las funcionalidades y en cada funcionalidad puede visualizar los 4 escenarios propuestos.
+# Funcionalidades bajo prueba en GHOST
+## Configuraciones Generales
+* *Primer escenario (Modificar privacidad del sitio)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "General"
+  3. Dar clic sobre el boton "Make this site private"
+  4. Dar clic sobre el boton "Save settings"
+  5. 
+* *Primer escenario (Login como administrador)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "General"
+  
+## Administración de usuarios
+ * *primer escenario (Cambiar contraseña de usuario)*
+    1. Realizar el login como administrador
+    2. En la dashboard seleccionar la pestaña "Staff e ingresar al usuario Ghost"
+    3. Buscar los campos de contraseña anterior y nueva contraseña. Luego llenar los campos de entrada!!
+    4. Buscar el botón de guardar cambios de contraseña y realizar clic
+    5. buscar alert que con mensaje de cambio exitoso de contraseña de lo contrario falla la prueba.
