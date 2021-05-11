@@ -193,7 +193,7 @@
 ------------------
   1. Tener funcionando Ghost en su versión 3.3.0 de forma local, asegurandose que el puerto de salida es http://localhost:2368/
   2. Tener configurado Kraken en la maquina en la que se vaya a ejecutar la carpeta con las pruebas.
-  3. Para cada una de las pruebas detalladas en los .featire, se debe tener las credenciales de acceso como administrador Ghost.
+  3. Para cada una de las pruebas detalladas en los .feature, se debe tener las credenciales de acceso como administrador Ghost.
   4. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile setup.
   5. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile run.
   6. La herramienta Kraken se ejecutará y podra visualizar los snapshots de cada una de las pruebas.
