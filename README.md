@@ -86,6 +86,36 @@
   6. Confirmar el mensaje emergente dando clic la opción "Delete"
   7. Devolverse a la pestaña de pages y verificar que la página fue eliminada correctamente
 ## Administración Tag
+* *Primer escenario (agregar un tag)*
+    1. Iniciar sesión con administrador
+    2. Buscar y realizar clic sobre nav-bar Tags
+    3. Buscar boton 'Nuevo tag' y hacer clic sobre el
+    4. LLenar campos de configuración nuevo tag
+    5. Salvar el nuevo tag
+    6. Volver a pagina de lista de tags y buscar el nuevo tag
+* *Segundo escenario (Eliminar un tag)*
+    1. Iniciar sesión con administrador
+    2. Buscar y realizar clic sobre nav-bar Tags
+    3. Buscar el tag y clic sobre este
+    4. Buscar el botón en formulario "Eliminar Tag"
+    5. Buscar ventana modal y realizar clic en el botón de confirmar
+    6. Assert no exista el tag en la lista de tags
+* *Tercer escenario (Actualizar un tag)*
+    1. Iniciar sesión con administrador
+    2. Buscar y realizar clic sobre nav-bar Tags
+    3. Buscar el tag en la lista de tags y clic sobre este
+    4. modificar los campos del formulario
+    5. Buscar el botón de 'Salvar' y hacer clic sobre este
+    6. Volver a la lista de tags y buscar el tag actualizado.
+* *Cuarto Escenario (agregar un tag interno)*
+    1. Iniciar sesión con administrador
+    2. Buscar y realizar clic sobre nav-bar Tags
+    3. Buscar boton 'Nuevo tag' y hacer clic sobre el
+    4. LLenar campos de configuración nuevo tag
+    5. Salvar el nuevo tag
+    6. Volver a pagina de lista de tags Buscar botón 'Internal tags' y clic sobre este
+    7.  Buscar el nuevo tag en la lista de tags internos
+
 ## Administración de usuarios
 * *Primer escenario (Modificar Role de un usuario)*
   ------------------
@@ -113,6 +143,12 @@
   3. Limpiar la biografía y escribir "Somos estudiantes de la maestría en ingeniería de software, actualmente nos encontramos en proceso de aprendizaje para aplicar pruebas E2E con la api de automatización Cypress".
   4. Guardar los cambios y nos devolvemos a la sección de staff.
   5. Volver a ingresar al usuario Ghost para verificar los cambios en la biografia.
+ * *Cuarto escenario (Cambiar contraseña de usuario)*
+    1. Realizar el login como administrador
+    2. En la dashboard seleccionar la pestaña "Staff e ingresar al usuario Ghost"
+    3. Buscar los campos de contraseña anterior y nueva contraseña. Luego llenar estos campos con Miso2021!!
+    4. Buscar el botón de guardar cambios de contraseña y realizar clic
+    5. buscar alert que con mensaje de cambio exitoso de contraseña de lo contrario falla la prueba.
 ## Configuraciones Generales
 * *Primer escenario (Modificar privacidad del sitio)*
   ------------------
