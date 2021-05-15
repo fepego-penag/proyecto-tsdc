@@ -14,6 +14,7 @@ context('Actions', () => {
         cy.get('.email').type(this.data.username)
         cy.get('.password').type(this.data.password)
         cy.get('.login').click()
+        cy.screenshot()
     })
 });
 
@@ -22,20 +23,25 @@ describe("Delete post", () => {
 
         cy.get('#ember28')
             .click()
+        cy.screenshot()
 
         cy.get('.gh-content-entry-title')
             .first()
             .click({ force: true })
+            cy.screenshot()
 
         cy.get('.post-settings')
             .click({ force: true })
+            cy.screenshot()
 
         cy.contains('Delete post')
             .click({ force: true })
+            cy.screenshot()
 
         cy.get(".gh-btn.gh-btn-red.gh-btn-icon.ember-view")
             .first()
             .click({ force: true })
             .wait(2000)
-    })
+            cy.screenshot()
+        })
 });

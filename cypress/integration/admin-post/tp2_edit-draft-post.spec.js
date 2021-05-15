@@ -16,6 +16,7 @@ context('Actions', () => {
         cy.get('.email').type(this.data.username)
         cy.get('.password').type(this.data.password)
         cy.get('.login').click()
+        cy.screenshot()
     })
 });
 
@@ -23,19 +24,21 @@ describe("Edit a draft post", () => {
     it("Editing content", () => {
         cy.get('#ember28')
             .click()
+        cy.screenshot()
 
-        cy.contains('a', 'Draft')
+            cy.contains('a', 'Draft')
             .first()
             .click({ force: true })
 
+        cy.screenshot()
         cy.get('[data-kg="editor"]')
             .first()
             .click({ force: true })
             .focused()
             .type('Editing body of the post{enter}', { wait: 3000 })
-            //cy.get('[data-placeholder="Begin writing your post..."]').should('be.visible').wait(1000).click({ force: true }).type("Editing body of the post", { timeout: 50000 })
             .wait(3000)
+        cy.screenshot()
             .visit('http://localhost:2368/ghost/#/posts')
             .wait(3000)
-    })
+        })
 });
