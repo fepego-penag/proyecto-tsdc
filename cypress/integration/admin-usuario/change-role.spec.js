@@ -14,6 +14,7 @@ context('Actions', () => {
         cy.get('.email').type(this.data.username)
         cy.get('.password').type(this.data.password)
         cy.get('.login').click()
+        cy.screenshot()
     })
 });
 
@@ -26,10 +27,12 @@ describe("Change a role", () => {
             .first()
             .click({ force: true })
             .wait(3000)
+        cy.screenshot()
 
         cy.contains('div', 'Photo of')
             .first()
             .click({ force: true })
+            cy.screenshot()
 
         cy.get('#new-user-role')
             .select('Editor', { force: true })
@@ -38,11 +41,12 @@ describe("Change a role", () => {
 
         cy.get('.gh-btn.gh-btn-blue.gh-btn-icon.ember-view')
             .click({ force: true })
+            cy.screenshot()
             .wait(3000)
 
         cy.contains('a', 'Staff')
             .first().click({ force: true })
+            cy.screenshot()
             .wait(2000)
-
     })
 });

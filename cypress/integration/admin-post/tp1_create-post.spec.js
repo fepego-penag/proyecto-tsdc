@@ -16,6 +16,7 @@ context('Actions', () => {
         cy.get('.email').type(this.data.username)
         cy.get('.password').type(this.data.password)
         cy.get('.login').click()
+        cy.screenshot()
     })
 });
 
@@ -23,24 +24,29 @@ describe("Create post", () => {
     it("Creating post", () => {
         cy.get('#ember28')
             .click()
-
+        cy.screenshot()           
+        
         cy.contains('New post')
             .click({ force: true })
-
-        cy.hash()
+        cy.screenshot()
+        
+            cy.hash()
             .should('include', '#/editor/post')
 
         cy.get('textarea[placeholder="Post Title"]')
             .type("Test Post", { timeout: 40000 })
-
+        cy.screenshot()
+        
         cy.get('[data-placeholder="Begin writing your post..."]')
             .should('be.visible')
             .type('Edit text')
-
+        cy.screenshot()
+        
         cy.url()
             .should('include', 'post')
 
         cy.visit('http://localhost:2368/ghost/#/posts')
             .wait(4000)
-    })
+        cy.screenshot()
+        })
 });
