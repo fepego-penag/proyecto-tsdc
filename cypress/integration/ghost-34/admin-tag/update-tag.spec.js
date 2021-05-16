@@ -11,7 +11,7 @@ context('Actions', ()=> {
           Cypress.Cookies.preserveOnce('ghost-admin-api-session')
     })
     it('Fill username & password then log in ', function(){
-        cy.visit('http://localhost:2368/ghost/#/signin')
+        cy.visit('http://localhost:2369/ghost/#/signin')
         cy.screenshot() 
         cy.get('.email').type(this.data.username).debug()
         cy.get('.password').type(this.data.password)
@@ -28,7 +28,7 @@ context('Actions', ()=> {
         cy.get('#tag-slug').type('test edited',{force: true})
         cy.get('#tag-description').type(' edited',{force: true})
         cy.contains('Save').click()
-        cy.visit('http://localhost:2368/ghost/#/tags')
+        cy.visit('http://localhost:2369/ghost/#/tags')
         cy.screenshot() 
       })
       it('Check if new tag appears on list', function() {
