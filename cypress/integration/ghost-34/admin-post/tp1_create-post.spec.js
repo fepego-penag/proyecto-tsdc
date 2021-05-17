@@ -12,7 +12,7 @@ context('Actions', () => {
     })
 
     it('Fill username & password then log in ', function () {
-        cy.visit('http://localhost:2368/ghost/#/signin')
+        cy.visit('http://localhost:2369/ghost/#/signin')
         cy.get('.email').type(this.data.username)
         cy.get('.password').type(this.data.password)
         cy.get('.login').click()
@@ -24,6 +24,7 @@ describe("Create post", () => {
     it("Creating post", () => {
         cy.get('#ember28')
             .click()
+            cy.wait(2000)
         cy.screenshot()           
         
         cy.contains('New post')
@@ -45,7 +46,7 @@ describe("Create post", () => {
         cy.url()
             .should('include', 'post')
 
-        cy.visit('http://localhost:2368/ghost/#/posts')
+        cy.visit('http://localhost:2369/ghost/#/posts')
             .wait(4000)
         cy.screenshot()
         })

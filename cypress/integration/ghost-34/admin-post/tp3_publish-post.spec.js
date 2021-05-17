@@ -12,7 +12,7 @@ context('Actions', () => {
     })
 
     it('Fill username & password then log in ', function () {
-        cy.visit('http://localhost:2368/ghost/#/signin')
+        cy.visit('http://localhost:2369/ghost/#/signin')
         cy.get('.email').type(this.data.username)
         cy.get('.password').type(this.data.password)
         cy.get('.login').click()
@@ -22,13 +22,21 @@ context('Actions', () => {
 
 describe("Publish a draft post", () => {
     it("Publishing a post", () => {
-        cy.get('#ember28')
-            .click()
-        cy.screenshot()
-        
+        cy.contains('a', 'Posts')
+            .click({ force: true })
+            .wait(1000)
+
         cy.contains('a', 'Draft')
             .first()
             .click({ force: true })
+        cy.wait(2000)
+
+        cy.screenshot()
+        
+        cy.get('.midgrey-l2.fw5')
+            .first()
+            .click({ force: true })
+            .wait(2000)
         cy.screenshot()
         
         cy.contains('div', 'Publish')
@@ -42,7 +50,8 @@ describe("Publish a draft post", () => {
             .click({ force: true })
             .wait(3000)
         cy.screenshot()
-            .visit('http://localhost:2368/ghost/#/posts')
+            .visit('http://localhost:2369/ghost/#/posts?type=published')
             .wait(1000)
+        cy.screenshot()            
     })
 });

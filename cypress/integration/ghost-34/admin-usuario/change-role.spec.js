@@ -7,7 +7,7 @@ context('Actions', () => {
         })
     })
     beforeEach(() => {
-        cy.visit('http://localhost:2368/ghost/#/signin')
+        cy.visit('http://localhost:2369/ghost/#/signin')
     })
 
     it('Fill username & password then log in ', function () {
@@ -36,7 +36,7 @@ describe("Change a role", () => {
 
         cy.get('#new-user-role')
             .select('Editor', { force: true })
-            .should('have.value', '608f60ef706b3c0458a65e83')
+            .should('have.value', '60a1b8ee229345243081b6cf')
             .wait(3000)
 
         cy.get('.gh-btn.gh-btn-blue.gh-btn-icon.ember-view')
