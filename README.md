@@ -58,7 +58,8 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   3. Instalar dependencias con npm install, ya que se encuentra configurado el package-lock.json
   4. Ejecutar el comando node features/*, para que se ejecuten todos los scripts y generen automaticamente los reportes con los resultados de las pruebas de regresión en cada uno de los escenarios planteados.
   5. Puede observar cada reporte en detalle en la ruta resembleJS/results/admin-page o resembleJS/results/admin-usuario, cada uno de estos directorios contiene las imagenes de comparación y su respectivo reporte en HTML.
-
+# Registro de incidencias de acuerdo al resultado de las pruebas de regresion visual
+*Se encuentran reportadas las incidencias en formato issues del repositorio*
 # Funcionalidades bajo prueba en GHOST
 ## Administración Post
 * *Primer escenario (Crear un Post)*
