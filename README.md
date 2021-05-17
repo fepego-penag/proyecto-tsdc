@@ -38,6 +38,27 @@
   5. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile run.
   6. La herramienta Kraken se ejecutará y podra visualizar los snapshots de cada una de las pruebas.
   7. Para visualizar el reporte en html puede hacerlo desde la ruta: "reports/*" en cada carpeta se encuentra las funcionalidades y en cada funcionalidad puede visualizar los 4 escenarios propuestos.
+## Pruebas de VRT -> Ressembler (5 escenarios)
+Se diseño un script que permite tomar de una carpeta los screenshots para compararlo con una imagen de versión superior.
+
+Su uso es a partir de una imagen en version 3.3.0 se guarda con before-GH# donde el numero corresponde al momento tomado. También se guarda el de version resciente es decir Ghost v 3.42 con el siguiente formato after-GH#
+
+Instalar dependecias con npm install y ejecutar con 
+*node ghost-test.js*
+
+Se genera un reporte en consola y una imagen por cada escenario mostrando las diferencias entre cada version con el nombre compare-GH#
+
+NOTA: el script solamente funciona si existe el mismo numero de escenarios version anterior y version nueva.
+
+## Pruebas de VRT -> ResembleJS (5 escenarios)
+*A continuación se describe una serie de pasos necesarios para ejecutar las pruebas de regresión visual para los 5 escenarios con la herramienta resembleJS*:
+------------------
+  1. Previamente haber realizado los pasos para generación de imágenes tanto la versión Ghost 3.3.0 y Ghost 3.42.5; tal cual como se indica en los items anteriores.
+  2. Debe ubicarse en el proyecto y abrir una terminal y dar el comando cd ../resembleJS
+  3. Instalar dependencias con npm install, ya que se encuentra configurado el package-lock.json
+  4. Ejecutar el comando node features/*, para que se ejecuten todos los scripts y generen automaticamente los reportes con los resultados de las pruebas de regresión en cada uno de los escenarios planteados.
+  5. Puede observar cada reporte en detalle en la ruta resembleJS/results/admin-page o resembleJS/results/admin-usuario, cada uno de estos directorios contiene las imagenes de comparación y su respectivo reporte en HTML.
+
 # Funcionalidades bajo prueba en GHOST
 ## Administración Post
 * *Primer escenario (Crear un Post)*
@@ -213,15 +234,3 @@
   3. Dar clic sobre el boton "Expand" de la seccion Social accounts
   4. Ingresar nuevo valor
   5. Dar clic sobre el boton "Save settings"
-
-## Pruebas de VRT -> Ressembler
-Se diseño un script que permite tomar de una carpeta los screenshots para compararlo con una imagen de versión superior.
-
-Su uso es a partir de una imagen en version 3.3.0 se guarda con before-GH# donde el numero corresponde al momento tomado. También se guarda el de version resciente es decir Ghost v 3.42 con el siguiente formato after-GH#
-
-Instalar dependecias con npm install y ejecutar con 
-*node ghost-test.js*
-
-Se genera un reporte en consola y una imagen por cada escenario mostrando las diferencias entre cada version con el nombre compare-GH#
-
-NOTA: el script solamente funciona si existe el mismo numero de escenarios version anterior y version nueva.
