@@ -8,11 +8,13 @@ async function executeTest() {
 
     //Configuración del escenario
     let resultInfo = {};
-    let feature = "admin-page/addPage.js";
+    let feature = "admin-page/deletePage.js";
     let pasos = ["Actions -- Check if new page appears on list", 
-                "Actions -- click on button New Page",
-                "Actions -- Fill form page title",
+                "Actions -- click on button New Page, fill form page title and check if new page appears on list",
+                "Actions -- Confirm the pop-up message by clicking on the Delete option",
                 "Actions -- Fill username & password then log in",
+                "Actions -- Scroll down to the bottom and select Delete Page",
+                "Actions -- Search the page Mi cuarta página, select page and click on menu Settings",
                 "Actions -- Select page administration"];
 
     if (!fs.existsSync(`../../results/${feature}`)) {
