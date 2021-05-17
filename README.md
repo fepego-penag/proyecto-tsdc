@@ -115,6 +115,7 @@
   6. Confirmar el mensaje emergente dando clic la opción "Delete"
   7. Devolverse a la pestaña de pages y verificar que la página fue eliminada correctamente
 ## Administración Tag
+### Para este set de pruebas realizar la ejecucion de las pruebas (tag -> update -> delete -> agregar tag interno)
 * *Primer escenario (Agregar un tag)*
    ------------------
     1. Iniciar sesión con administrador
@@ -212,3 +213,15 @@
   3. Dar clic sobre el boton "Expand" de la seccion Social accounts
   4. Ingresar nuevo valor
   5. Dar clic sobre el boton "Save settings"
+
+## Pruebas de VRT -> Ressembler
+Se diseño un script que permite tomar de una carpeta los screenshots para compararlo con una imagen de versión superior.
+
+Su uso es a partir de una imagen en version 3.3.0 se guarda con before-GH# donde el numero corresponde al momento tomado. También se guarda el de version resciente es decir Ghost v 3.42 con el siguiente formato after-GH#
+
+Instalar dependecias con npm install y ejecutar con 
+*node ghost-test.js*
+
+Se genera un reporte en consola y una imagen por cada escenario mostrando las diferencias entre cada version con el nombre compare-GH#
+
+NOTA: el script solamente funciona si existe el mismo numero de escenarios version anterior y version nueva.
