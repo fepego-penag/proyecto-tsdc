@@ -18,7 +18,7 @@
   7. Para visualizar el reporte en video puede hacerlo desde la ruta: "cypress/videos/ghost-30*" en cada carpeta se encuentra las funcionalidades y en cada funcionalidad puede visualizar los 4 escenarios propuestos.
   8. Para visualizar las imágenes puede hacerlo desde la ruta: "cypress/screenshots/ghost-30/*" en cada carpeta se encuentra las funcionalidades y en cada funcionalidad puede visualizar los 4 escenarios propuestos con sus respectivos pasos cada uno.
 # Instrucciones para ejecutar los escenarios de Ghost 3.42.5 con Cypress
-*A continuación se desbribe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Cypress*:
+*A continuación se describe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Cypress*:
 ------------------
   1. Tener funcionando Ghost en su versión 3.42.5 de forma local, asegurandose que el puerto de salida es http://localhost:2368/
   2. Clonar este repositorio
@@ -29,7 +29,7 @@
   7. Para visualizar el reporte en video puede hacerlo desde la ruta: "cypress/videos/ghost-34*" en cada carpeta se encuentra las funcionalidades y en cada funcionalidad puede visualizar los 4 escenarios propuestos.
   8. Para visualizar las imágenes puede hacerlo desde la ruta: "cypress/screenshots/ghost-34/*" en cada carpeta se encuentra las funcionalidades y en cada funcionalidad puede visualizar los 4 escenarios propuestos con sus respectivos pasos cada uno.
 # Instrucciones para ejecutar los escenarios de Ghost 3.3.0 en Kraken
-*A continuación se descbribe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Kraken*:
+*A continuación se describe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Kraken*:
 ------------------
   1. Tener funcionando Ghost en su versión 3.3.0 de forma local, asegurandose que el puerto de salida es http://localhost:2368/
   2. Tener configurado Kraken en la maquina en la que se vaya a ejecutar la carpeta con las pruebas.
@@ -115,7 +115,7 @@
   6. Confirmar el mensaje emergente dando clic la opción "Delete"
   7. Devolverse a la pestaña de pages y verificar que la página fue eliminada correctamente
 ## Administración Tag
-* *Primer escenario (agregar un tag)*
+* *Primer escenario (Agregar un tag)*
    ------------------
     1. Iniciar sesión con administrador
     2. Buscar y realizar clic sobre nav-bar Tags
@@ -139,7 +139,7 @@
     4. modificar los campos del formulario
     5. Buscar el botón de 'Salvar' y hacer clic sobre este
     6. Volver a la lista de tags y buscar el tag actualizado.
-* *Cuarto Escenario (agregar un tag interno)*
+* *Cuarto Escenario (Agregar un tag interno)*
   ------------------
     1. Iniciar sesión con administrador
     2. Buscar y realizar clic sobre nav-bar Tags
