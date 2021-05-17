@@ -7,7 +7,7 @@ context('Actions', () => {
         })
     })
     beforeEach(() => {
-        cy.visit('http://localhost:2368/ghost/#/signin')
+        cy.visit('http://localhost:2369/ghost/#/signin')
     })
 
     it('Fill username & password then log in ', function () {
@@ -21,22 +21,22 @@ context('Actions', () => {
 describe("Delete post", () => {
     it("Deleting post", () => {
 
-        cy.get('#ember28')
-            .click()
-        cy.screenshot()
-
+        cy.contains('a', 'Posts')
+            .click({ force: true })
+            .wait(1000)
+        
         cy.get('.gh-content-entry-title')
             .first()
             .click({ force: true })
-            cy.screenshot()
+        cy.screenshot()
 
         cy.get('.post-settings')
             .click({ force: true })
-            cy.screenshot()
+        cy.screenshot()
 
         cy.contains('Delete post')
             .click({ force: true })
-            cy.screenshot()
+        cy.screenshot()
 
         cy.get(".gh-btn.gh-btn-red.gh-btn-icon.ember-view")
             .first()

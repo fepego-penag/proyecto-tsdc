@@ -7,7 +7,7 @@ context('Actions', () => {
         })
       })
     beforeEach(() => {
-      cy.visit('http://localhost:2368/ghost/#/signin')
+      cy.visit('http://localhost:2369/ghost/#/signin')
     })
 
     it('Fill username & password then log in ', function(){
