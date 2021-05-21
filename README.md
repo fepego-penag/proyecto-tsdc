@@ -235,3 +235,14 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   3. Dar clic sobre el boton "Expand" de la seccion Social accounts
   4. Ingresar nuevo valor
   5. Dar clic sobre el boton "Save settings"
+
+# Instrucciones para ejecutar los escenarios de Ghost 3.42.5 en Kraken (Datos aleatorios)
+*A continuación se describe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Kraken*:
+------------------
+  1. Tener funcionando Ghost en su versión 3.42.5 de forma local, asegurandose que el puerto de salida es http://localhost:2368/
+  2. Tener configurado Kraken en la maquina en la que se vaya a ejecutar la carpeta con las pruebas.
+  3. Para cada una de las pruebas detalladas en los .feature, se debe tener las credenciales de acceso como administrador Ghost.
+  4. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile setup.
+  5. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile run.
+  6. La herramienta Kraken se ejecutará y podra visualizar los snapshots de cada una de las pruebas.
+  7. Para visualizar el reporte en html puede hacerlo desde la ruta: "reports/*" en cada carpeta se encuentra las funcionalidades y en cada funcionalidad puede visualizar los 4 escenarios propuestos.
