@@ -246,3 +246,47 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   5. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile run.
   6. La herramienta Kraken se ejecutará y podra visualizar los snapshots de cada una de las pruebas.
   7. Para visualizar el reporte en html puede hacerlo desde la ruta: "reports/*" en cada carpeta se encuentra las funcionalidades y en cada funcionalidad puede visualizar los 4 escenarios propuestos.
+
+# Funcionalidades bajo prueba en GHOST 3.42.5 con data aleatoria usando Kraken
+## Administración Post
+* *Primer escenario (Crear un Post)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Posts"
+  3. Dar clic en "New post"
+  4. Ingresar un texto para el titulo del post
+  5. Regresar a la vista posts
+* *Segundo escenario (Editar un Post)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Posts"
+  3. Seleccionar el primer post con estado "Draft"
+  4. Activar el cuerpo del post e ingresar texto de prueba
+  5. Regresar a la vista posts
+* *Tercer escenario (Publicar un Post)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Posts"
+  3. Seleccionar el primer post con estado "Draft"
+  4. Dar clic en Publish
+  5. Dar clic en la opción "Set it live now"
+  6. Dar clic en el botón "Publish"
+  7. Regresar a la vista posts
+* *Cuarto escenario (Desactivar un Post)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Posts"
+  3. Dar clic sobre el primer post con estado "Published"
+  4. Dar clic en "Update"
+  5. Dar clic en "Unpublished"
+  6. Dar clic en el botón "Unpublish"
+  7. Regresar a la vista posts
+* *Quinto escenario (Eliminar un Post)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Posts"
+  3. Dar clic sobre el primer post de la lista
+  4. Dar clic en el icono "Settings"
+  5. Dar clic en "Delete post"
+  6. Dar clic en el botón "Delete" de la ventana desplegada
+  7. Regresar a la vista posts
