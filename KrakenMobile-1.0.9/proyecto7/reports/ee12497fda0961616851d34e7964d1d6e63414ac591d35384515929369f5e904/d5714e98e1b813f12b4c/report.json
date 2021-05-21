@@ -1,0 +1,231 @@
+[
+  {
+    "uri": "C:/git/Maestria/proyecto-tsdc/KrakenMobile-1.0.9/proyecto7/./features/makeSitePrivate.feature",
+    "id": "login-select-general-administration-button-and-make-private-site",
+    "keyword": "Feature",
+    "name": "Login select general administration button and make private site",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-select-general-administration-button-and-make-private-site;as-the-first-user-i-want-to-be-able-to-log-into-the-application-and-make-private-site",
+        "keyword": "Scenario",
+        "name": "As the first user I want to be able to log into the application and make private site",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          },
+          {
+            "name": "@web",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/web/support/app_life_cycle_hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 679500
+            }
+          },
+          {
+            "match": {
+              "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1031903500
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "page \"http://localhost:2368/ghost/#/signin/\"",
+            "line": 5,
+            "match": {
+              "location": "C:/git/Maestria/proyecto-tsdc/KrakenMobile-1.0.9/proyecto7/./features/makeSitePrivate.feature:5"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I navigate to page \"http://localhost:2368/ghost/#/signin/\"",
+            "line": 6,
+            "match": {
+              "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:11"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter \"ma.zapataf@uniandes.edu.co\" into input field having id \"ember8\"",
+            "line": 7,
+            "match": {
+              "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:19"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I enter \"misomazf88\" into input field having id \"ember10\"",
+            "line": 8,
+            "match": {
+              "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:19"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having id \"ember12\"",
+            "line": 9,
+            "match": {
+              "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having id \"ember33\"",
+            "line": 10,
+            "match": {
+              "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:31"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having css selector \".input-toggle-component\"",
+            "line": 11,
+            "match": {
+              "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:50"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I click on element having css selector \".gh-btn.gh-btn-blue.gh-btn-icon.ember-view\"",
+            "line": 12,
+            "match": {
+              "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:50"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "kraken-mobile-1.0.9/lib/kraken-mobile/steps/web/kraken_steps.rb:105"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/web/support/app_life_cycle_hooks.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 614000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
