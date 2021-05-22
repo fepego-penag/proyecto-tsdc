@@ -263,30 +263,33 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   3. Seleccionar el primer post con estado "Draft"
   4. Activar el cuerpo del post e ingresar texto de prueba
   5. Regresar a la vista posts
-* *Tercer escenario (Publicar un Post)*
+## Administración Staff
+* *Primer escenario (Cambiar slug de usuario ghost)*
   ------------------
   1. Realizar el login como administrador
-  2. En la dashboard seleccionar la pestaña "Posts"
-  3. Seleccionar el primer post con estado "Draft"
-  4. Dar clic en Publish
-  5. Dar clic en la opción "Set it live now"
-  6. Dar clic en el botón "Publish"
-  7. Regresar a la vista posts
-* *Cuarto escenario (Desactivar un Post)*
+  2. En la dashboard seleccionar la pestaña "Staff"
+  3. Navegar al usuario ghost-user
+  4. Se ingresa dato aleatorio en campo Slug
+  5. Guardar cambios.
+* *Segundo escenario (Cambiar Website de usuario miguel)*
   ------------------
   1. Realizar el login como administrador
-  2. En la dashboard seleccionar la pestaña "Posts"
-  3. Dar clic sobre el primer post con estado "Published"
-  4. Dar clic en "Update"
-  5. Dar clic en "Unpublished"
-  6. Dar clic en el botón "Unpublish"
-  7. Regresar a la vista posts
-* *Quinto escenario (Eliminar un Post)*
+  2. En la dashboard seleccionar la pestaña "Staff"
+  3. Navegar al usuario miguel
+  4. Se ingresa dato aleatorio en campo Website
+  5. Guardar cambios.
+* *Tercer escenario (Cambiar ubicacion de usuario miguel)*
   ------------------
   1. Realizar el login como administrador
-  2. En la dashboard seleccionar la pestaña "Posts"
-  3. Dar clic sobre el primer post de la lista
-  4. Dar clic en el icono "Settings"
-  5. Dar clic en "Delete post"
-  6. Dar clic en el botón "Delete" de la ventana desplegada
-  7. Regresar a la vista posts
+  2. En la dashboard seleccionar la pestaña "Staff"
+  3. Navegar al usuario miguel
+  4. Se ingresa dato aleatorio en campo Location
+  5. Guardar cambios.
+* *Cuarto escenario (Cambiar perfil de facebook de usuario miguel)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Staff"
+  3. Navegar al usuario miguel
+  4. Se ingresa dato aleatorio en campo Facebook Profile
+  5. Guardar cambios.
+
