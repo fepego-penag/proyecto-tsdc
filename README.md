@@ -269,34 +269,40 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   1. Realizar el login como administrador
   2. En la dashboard seleccionar la pestaña "Staff"
   3. Navegar al usuario ghost-user
-  4. Se ingresa dato aleatorio en campo Slug
+  4. Ingresar dato aleatorio en campo Slug
   5. Guardar cambios.
 * *Segundo escenario (Cambiar Website de usuario miguel)*
   ------------------
   1. Realizar el login como administrador
   2. En la dashboard seleccionar la pestaña "Staff"
   3. Navegar al usuario miguel
-  4. Se ingresa dato aleatorio en campo Website
+  4. Ingresar dato aleatorio en campo Website
   5. Guardar cambios.
 * *Tercer escenario (Cambiar ubicacion de usuario miguel)*
   ------------------
   1. Realizar el login como administrador
   2. En la dashboard seleccionar la pestaña "Staff"
   3. Navegar al usuario miguel
-  4. Se ingresa dato aleatorio en campo Location
+  4. Ingresar dato aleatorio en campo Location
   5. Guardar cambios.
 * *Cuarto escenario (Cambiar perfil de facebook de usuario miguel)*
   ------------------
   1. Realizar el login como administrador
   2. En la dashboard seleccionar la pestaña "Staff"
   3. Navegar al usuario miguel
-  4. Se ingresa dato aleatorio en campo Facebook Profile
+  4. Ingresar dato aleatorio en campo Facebook Profile
   5. Guardar cambios.
 * *Quinto escenario (Cambiar perfil de twitter de usuario miguel)*
   ------------------
   1. Realizar el login como administrador
   2. En la dashboard seleccionar la pestaña "Staff"
   3. Navegar al usuario miguel
-  4. Se ingresa dato aleatorio en campo Twitter Profile
+  4. Ingresar dato aleatorio en campo Twitter Profile
   5. Guardar cambios.
-
+* *Sexto escenario (Cambiar Bio de usuario miguel)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Staff"
+  3. Navegar al usuario miguel
+  4. Ingresar dato aleatorio en campo Bio
+  5. Guardar cambios.
