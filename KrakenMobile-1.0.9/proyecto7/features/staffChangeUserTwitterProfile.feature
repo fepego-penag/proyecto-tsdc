@@ -1,7 +1,7 @@
-  Feature: Login select staff button, select miguel user and change Facebook Profile
+  Feature: Login select staff button, select miguel user and change Twitter Profile
   
   @user1 @web
-  Scenario: As the first user I want to be able to log into the application select staff button, select miguel user and change Facebook Profile
+  Scenario: As the first user I want to be able to log into the application select staff button, select miguel user and change Twitter Profile
     Given I navigate to page "http://localhost:2368/ghost/#/signin"
     When I navigate to page "http://localhost:2368/ghost/#/signin/"
     Then I enter "ma.zapataf@uniandes.edu.co" into input field having id "ember8"
@@ -15,7 +15,7 @@
     Then I wait for 5 seconds
 
   @user2 @web
-  Scenario: As the second user I want to be able to log into the application select staff button, select miguel user and change Facebook Profile
+  Scenario: As the second user I want to be able to log into the application select staff button, select miguel user and change Twitter Profile
     Given I navigate to page "http://localhost:2368/ghost/#/signin"
     When I navigate to page "http://localhost:2368/ghost/#/signin/"
     Then I enter "ma.zapataf@uniandes.edu.co" into input field having id "ember8"
@@ -30,7 +30,7 @@
     Then I wait for 5 seconds
 
   @user3 @web
-  Scenario: As the third user I want to be able to log into the application select staff button, select miguel user and change Facebook Profile
+  Scenario: As the third user I want to be able to log into the application select staff button, select miguel user and change Twitter Profile
     Given I navigate to page "http://localhost:2368/ghost/#/signin"
     When I navigate to page "http://localhost:2368/ghost/#/signin/"
     Then I enter "ma.zapataf@uniandes.edu.co" into input field having id "ember8"
