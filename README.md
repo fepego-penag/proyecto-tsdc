@@ -317,3 +317,11 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   3. Navegar al usuario miguel
   4. Ingresar dato aleatorio en campo Bio
   5. Guardar cambios.
+## Configuración General
+* *Primer escenario (Cambiar titulo)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "General"
+  3. Navegar al campo Title & description
+  4. Ingresar dato aleatorio en campo Title & description
+  5. Guardar cambios.
