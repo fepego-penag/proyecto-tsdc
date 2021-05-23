@@ -6,6 +6,17 @@
 | Jhonnatan Eduardo Zamudio Palacios  | j.zamudiop@uniandes.edu.co                                      |
 | Miguel Angel Zapata Fraile          | ma.zapataf@uniandes.edu.co                                      |
 | Carlos Felipe Peña Gómez            | cf.pena1138@uniandes.edu.co                                     |
+
+# Instrucciónes Pruebas con datos Aleatorios Faker - Cypress
+Se realizaron escenarios de pruebas bajo la estrategia de escenarios aleatorios usando Faker como herramienta de generación de datos. Las pruebas se encuentran en cypress/integration/datos-aleatorios-faker.
+
+Cada escenario utilizado fue probado creando diferentes entradas no deterministicas que cambian en una nueva ejecución, probando diferentes longitudes, caracteres especiales, cadenas vacías y forzando a generar errores sobre campos y formularios. 
+
+Para ejecutarla utilizar una instancia de Ghost version 3.42.5. Asegurarse que el puerto de salida es 2369. http://localhost:2369
+* Realizar la ejecución de instalación de dependencias `npm install`
+* Ejecutar Cypress desde node modules con el siguiente comando: `./node_modules/.bin/cypress open`
+* No hay orden determinado para cada escenario de prueba se pueden ejecutar en desorden. 
+
 # Instrucciones para ejecutar los escenarios de Ghost 3.3.0 con Cypress
 *A continuación se describe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Cypress*:
 ------------------
