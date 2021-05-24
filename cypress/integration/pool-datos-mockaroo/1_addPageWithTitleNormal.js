@@ -1,11 +1,23 @@
 /// <reference types="cypress" />
-var data;
+let dato;
 context('Actions', () => {
     before(function () {
         cy.clearCookies()
         cy.fixture('login_credentials').then(function (data) {
             this.data = data;
         })
+        let mockarooApiKey = '467c1d80';
+        let url = `https://my.api.mockaroo.com/miso_test_pruebas_automatizadas.json?key=${mockarooApiKey}`;
+        (async function () {
+            try {
+                const response = await fetch(url);
+                let  myJson = await response.json();
+                dato = myJson[0]["title"];
+            } catch (error) {
+                console.log('That did not go well.')
+                throw error
+            }
+        })().catch( e => { console.error(e) })
     })
 
     beforeEach(() => {
@@ -34,7 +46,7 @@ context('Actions', () => {
     })
 
     it('Fill form page title', function () {
-        cy.get('textarea[placeholder="Page Title"]').type('Mi primera página')
+        cy.get('textarea[placeholder="Page Title"]').type(dato) 
         cy.get('div[data-kg="editor"]').click()
         cy.screenshot()
     })
