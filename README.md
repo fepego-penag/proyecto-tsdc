@@ -1,4 +1,4 @@
-# Pruebas automatizadas Entregable Semana 6
+# Pruebas automatizadas Entregable Semana 7
 ## Integrantes
 | Nombre                              | Correo                                                          |
 | ----------------------------------- | ----------------------------------------------------------------|
@@ -325,3 +325,94 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   3. Navegar al campo Title & description
   4. Ingresar dato aleatorio en campo Title & description
   5. Guardar cambios.
+* *Segundo escenario (Cambiar lenguaje publicacion)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "General"
+  3. Navegar al campo Publication Language
+  4. Ingresar dato aleatorio en campo Publication Language
+  5. Guardar cambios.
+## Administración Pages
+* *Primer escenario (Crear pagina)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Pages"
+  3. Seleccionar New page
+  4. Ingresar dato aleatorio en campo Page Title
+  5. Ingresar dato aleatorio en Descripcion
+  6. Dar click en link Publish
+  7. Dar click en boton Publish
+  8. Guardar cambios.
+* *Segundo escenario (Editar excerpt de pagina)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Pages"
+  3. Seleccionar New page
+  4. Ingresar dato aleatorio en campo Page Title
+  5. Ingresar dato aleatorio en Descripcion
+  6. Dar click en link Publish
+  7. Dar click en boton Publish
+  8. Guardar cambios
+  9. Dar click en boton Post settings
+  10. Ingresar dato aleatorio en Excerpt
+  11. Cerrar ventana de Post settings
+  12. Guardar cambios
+* *Tercer escenario (Editar canonical url de metadata de pagina)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Pages"
+  3. Seleccionar New page
+  4. Ingresar dato aleatorio en campo Page Title
+  5. Ingresar dato aleatorio en Descripcion
+  6. Dar click en link Publish
+  7. Dar click en boton Publish
+  8. Guardar cambios
+  9. Dar click en boton Post settings
+  10. Dar click en nav Meta data
+  11. Ingresar dato aleatorio en Canonical URL
+  12. Cerrar ventana de Post settings
+  13. Guardar cambios
+* *Cuarto escenario (Editar metadata description de metadata de pagina)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Pages"
+  3. Seleccionar New page
+  4. Ingresar dato aleatorio en campo Page Title
+  5. Ingresar dato aleatorio en Descripcion
+  6. Dar click en link Publish
+  7. Dar click en boton Publish
+  8. Guardar cambios
+  9. Dar click en boton Post settings
+  10. Dar click en nav Meta data
+  11. Ingresar dato aleatorio en Meta description
+  12. Cerrar ventana de Post settings
+  13. Guardar cambios
+* *Quinto escenario (Editar metadata title de metadata de pagina)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Pages"
+  3. Seleccionar New page
+  4. Ingresar dato aleatorio en campo Page Title
+  5. Ingresar dato aleatorio en Descripcion
+  6. Dar click en link Publish
+  7. Dar click en boton Publish
+  8. Guardar cambios
+  9. Dar click en boton Post settings
+  10. Dar click en nav Meta data
+  11. Ingresar dato aleatorio en Meta title
+  12. Cerrar ventana de Post settings
+  13. Guardar cambios
+* *Sexto escenario (Editar url de pagina)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Pages"
+  3. Seleccionar New page
+  4. Ingresar dato aleatorio en campo Page Title
+  5. Ingresar dato aleatorio en Descripcion
+  6. Dar click en link Publish
+  7. Dar click en boton Publish
+  8. Guardar cambios
+  9. Dar click en boton Post settings
+  10. Ingresar dato aleatorio en Page URL
+  11. Cerrar ventana de Post settings
+  12. Guardar cambios
