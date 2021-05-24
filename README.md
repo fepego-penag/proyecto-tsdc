@@ -416,3 +416,49 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   10. Ingresar dato aleatorio en Page URL
   11. Cerrar ventana de Post settings
   12. Guardar cambios
+## Administración Tags
+* *Primer escenario (Crear tag)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Tags"
+  3. Seleccionar New tag
+  4. Ingresar dato aleatorio en campo Name
+  5. Ingresar dato aleatorio en campo Slug
+  6. Ingresar dato aleatorio en campo Description
+  7. Dar click en boton Save
+* *Segundo escenario (Editar descripcion de tag)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Tags"
+  3. Seleccionar New tag
+  4. Ingresar dato aleatorio en campo Name
+  5. Ingresar dato aleatorio en campo Slug
+  6. Ingresar dato aleatorio en campo Description
+  7. Dar click en boton Save
+  8. Guardar cambios
+  9. Ingresar dato aleatorio en campo Description
+  10. Dar click en boton Save
+* *Tercer escenario (Editar name de tag)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Tags"
+  3. Seleccionar New tag
+  4. Ingresar dato aleatorio en campo Name
+  5. Ingresar dato aleatorio en campo Slug
+  6. Ingresar dato aleatorio en campo Description
+  7. Dar click en boton Save
+  8. Guardar cambios
+  9. Ingresar dato aleatorio en campo Name
+  10. Dar click en boton Save
+* *Cuarto escenario (Editar slug de tag)*
+  ------------------
+  1. Realizar el login como administrador
+  2. En la dashboard seleccionar la pestaña "Tags"
+  3. Seleccionar New tag
+  4. Ingresar dato aleatorio en campo Name
+  5. Ingresar dato aleatorio en campo Slug
+  6. Ingresar dato aleatorio en campo Description
+  7. Dar click en boton Save
+  8. Guardar cambios
+  9. Ingresar dato aleatorio en campo Slug
+  10. Dar click en boton Save
