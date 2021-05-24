@@ -247,7 +247,7 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   4. Ingresar nuevo valor
   5. Dar clic sobre el boton "Save settings"
 
-# Instrucciones para ejecutar los escenarios de Ghost 3.42.5 en Kraken con Faker (Datos aleatorios)
+# Instrucciones para ejecutar los escenarios de Ghost 3.42.5 en Kraken con Faker (Estrategía escenario aleatorio)
 *A continuación se describe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Kraken con Faker:
 ------------------
   1. Tener funcionando Ghost en su versión 3.42.5 de forma local, asegurandose que el puerto de salida es http://localhost:2368/
@@ -260,7 +260,7 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   8. La herramienta Kraken se ejecutará y podra visualizar los snapshots de cada una de las pruebas.
   9. Para visualizar el reporte en html puede hacerlo desde la ruta: "reports/*" en cada carpeta se encuentra cada uno de los 20 escenarios propuestos, para cada escenario se        cuenta con 3 datos aleatorios ingresados a los campos usando faker.
 
-# Funcionalidades bajo prueba en GHOST 3.42.5 con data aleatoria usando Faker en Kraken (Estrategía 1 pool de datos a-priori)
+# Funcionalidades bajo prueba en GHOST 3.42.5 con data aleatoria usando Faker en Kraken (Estrategía escenario aleatorio)
 ## Administración Post
 * *Primer escenario (Crear un Post)*
   ------------------
