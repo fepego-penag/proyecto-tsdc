@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-tsdc",
+  "version": "1.0.0",
+  "description": "pruebas automatizadas y e2e",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fepego-penag/proyecto-tsdc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fepego-penag/proyecto-tsdc/issues"
+  },
+  "homepage": "https://github.com/fepego-penag/proyecto-tsdc#readme",
+  "dependencies": {
+    "cypress": "^7.3.0",
+    "faker": "^5.5.3",
+    "rimraf": "^3.0.2"
+  }
+}
