@@ -17,7 +17,7 @@ Para ejecutarla utilizar una instancia de Ghost version 3.42.5. Asegurarse que e
 * Ejecutar Cypress desde node modules con el siguiente comando: `./node_modules/.bin/cypress open`
 * No hay orden determinado para cada escenario de prueba se pueden ejecutar en desorden.
 
-# Instrucciónes Pruebas con datos Aleatorios Moackroo - Cypress (Estrategía 3 escenario a priori)
+# Instrucciónes Pruebas con datos Aleatorios Mockaroo - Cypress (Estrategía 3 escenario a priori)
 Se realizaron escenarios de pruebas bajo la estrategia de escenarios aleatorios usando Mockaroo como herramienta de generación de datos. Las pruebas se encuentran en cypress/integration/pool-datos-a-priori.
 
 Cada escenario utilizado fue probado creando diferentes entradas no deterministicas que cambian en una nueva ejecución, tomando la data de los json generados con la herramienta, probando diferentes longitudes, caracteres especiales, cadenas vacías y forzando a generar errores sobre campos y formularios.
