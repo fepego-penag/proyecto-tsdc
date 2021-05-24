@@ -22,7 +22,7 @@ Se realizaron escenarios de pruebas bajo la estrategia de escenarios aleatorios 
 
 Cada escenario utilizado fue probado creando diferentes entradas no deterministicas que cambian en una nueva ejecución, tomando la data de los json generados con la herramienta, probando diferentes longitudes, caracteres especiales, cadenas vacías y forzando a generar errores sobre campos y formularios.
 
-Para ejecutarla utilizar una instancia de Ghost version 3.42.5. Asegurarse que el puerto de salida es 2369. http://localhost:2369
+Para ejecutarla utilizar una instancia de Ghost version 3.42.5. Asegurarse que el puerto de salida es 2368. http://localhost:2368
 * Realizar la ejecución de instalación de dependencias `npm install`
 * Ejecutar Cypress desde node modules con el siguiente comando: `./node_modules/.bin/cypress open`
 * No hay orden determinado para cada escenario de prueba se pueden ejecutar en desorden.
