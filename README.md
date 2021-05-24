@@ -7,7 +7,7 @@
 | Miguel Angel Zapata Fraile          | ma.zapataf@uniandes.edu.co                                      |
 | Carlos Felipe Peña Gómez            | cf.pena1138@uniandes.edu.co                                     |
 
-# Instrucciónes Pruebas con datos Aleatorios Faker - Cypress
+# Instrucciónes Pruebas con datos Aleatorios Faker - Cypress (Estrategía 3 escenario aleatorio)
 Se realizaron escenarios de pruebas bajo la estrategia de escenarios aleatorios usando Faker como herramienta de generación de datos. Las pruebas se encuentran en cypress/integration/datos-aleatorios-faker.
 
 Cada escenario utilizado fue probado creando diferentes entradas no deterministicas que cambian en una nueva ejecución, probando diferentes longitudes, caracteres especiales, cadenas vacías y forzando a generar errores sobre campos y formularios. 
@@ -15,7 +15,17 @@ Cada escenario utilizado fue probado creando diferentes entradas no deterministi
 Para ejecutarla utilizar una instancia de Ghost version 3.42.5. Asegurarse que el puerto de salida es 2369. http://localhost:2369
 * Realizar la ejecución de instalación de dependencias `npm install`
 * Ejecutar Cypress desde node modules con el siguiente comando: `./node_modules/.bin/cypress open`
-* No hay orden determinado para cada escenario de prueba se pueden ejecutar en desorden. 
+* No hay orden determinado para cada escenario de prueba se pueden ejecutar en desorden.
+
+# Instrucciónes Pruebas con datos Aleatorios Moackroo - Cypress (Estrategía 3 escenario a priori)
+Se realizaron escenarios de pruebas bajo la estrategia de escenarios aleatorios usando Mockaroo como herramienta de generación de datos. Las pruebas se encuentran en cypress/integration/pool-datos-a-priori.
+
+Cada escenario utilizado fue probado creando diferentes entradas no deterministicas que cambian en una nueva ejecución, tomando la data de los json generados con la herramienta, probando diferentes longitudes, caracteres especiales, cadenas vacías y forzando a generar errores sobre campos y formularios.
+
+Para ejecutarla utilizar una instancia de Ghost version 3.42.5. Asegurarse que el puerto de salida es 2369. http://localhost:2369
+* Realizar la ejecución de instalación de dependencias `npm install`
+* Ejecutar Cypress desde node modules con el siguiente comando: `./node_modules/.bin/cypress open`
+* No hay orden determinado para cada escenario de prueba se pueden ejecutar en desorden.
 
 # Instrucciones para ejecutar los escenarios de Ghost 3.3.0 con Cypress
 *A continuación se describe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Cypress*:
@@ -247,7 +257,7 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   4. Ingresar nuevo valor
   5. Dar clic sobre el boton "Save settings"
 
-# Instrucciones para ejecutar los escenarios de Ghost 3.42.5 en Kraken con Faker (Datos aleatorios)
+# Instrucciones para ejecutar los escenarios de Ghost 3.42.5 en Kraken con Faker (Estrategía escenario aleatorio)
 *A continuación se describe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Kraken con Faker:
 ------------------
   1. Tener funcionando Ghost en su versión 3.42.5 de forma local, asegurandose que el puerto de salida es http://localhost:2368/
@@ -260,7 +270,7 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   8. La herramienta Kraken se ejecutará y podra visualizar los snapshots de cada una de las pruebas.
   9. Para visualizar el reporte en html puede hacerlo desde la ruta: "reports/*" en cada carpeta se encuentra cada uno de los 20 escenarios propuestos, para cada escenario se        cuenta con 3 datos aleatorios ingresados a los campos usando faker.
 
-# Funcionalidades bajo prueba en GHOST 3.42.5 con data aleatoria usando Faker en Kraken
+# Funcionalidades bajo prueba en GHOST 3.42.5 con data aleatoria usando Faker en Kraken (Estrategía escenario aleatorio)
 ## Administración Post
 * *Primer escenario (Crear un Post)*
   ------------------
