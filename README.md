@@ -27,6 +27,18 @@ Para ejecutarla utilizar una instancia de Ghost version 3.42.5. Asegurarse que e
 * Ejecutar Cypress desde node modules con el siguiente comando: `./node_modules/.bin/cypress open`
 * No hay orden determinado para cada escenario de prueba se pueden ejecutar en desorden.
 
+# Instrucciónes Pruebas con datos Aleatorios Mockaroo - Cypress (Estrategía 2 pool de datos (pseudo) aleatorio dinámico)
+Se implemento una api en Mockaroo con el fin de poder consumir dinamicamente los datos y poder aplicar correctamente la estrategia, para verificar el esquema guardado y la api construida se puede ingresar a:
+1. https://mockaroo.com/
+2. Con el correo j.zamudiop@uniandes.edu.co y password:Jhotec2013.
+3. El json generado con el API REST (GET) es: https://my.api.mockaroo.com/miso_test_pruebas_automatizadas.json?key=467c1d80
+
+Para ejecutarla utilizar una instancia de Ghost version 3.42.5. Asegurarse que el puerto de salida es 2368. http://localhost:2368
+* Realizar la ejecución de instalación de dependencias `npm install`
+* No olvide configurar el archivo login_credentials.json con el correo y password del administrador creado en la versión de Ghost 3.42.5
+* Ejecutar Cypress desde node modules con el siguiente comando: `./node_modules/.bin/cypress open`
+* No hay orden determinado para cada escenario de prueba se pueden ejecutar en desorden.
+
 # Instrucciones para ejecutar los escenarios de Ghost 3.3.0 con Cypress
 *A continuación se describe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Cypress*:
 ------------------
