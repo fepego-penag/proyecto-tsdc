@@ -247,18 +247,20 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   4. Ingresar nuevo valor
   5. Dar clic sobre el boton "Save settings"
 
-# Instrucciones para ejecutar los escenarios de Ghost 3.42.5 en Kraken (Datos aleatorios)
-*A continuación se describe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Kraken*:
+# Instrucciones para ejecutar los escenarios de Ghost 3.42.5 en Kraken con Faker (Datos aleatorios)
+*A continuación se describe una serie de pasos necesarios para ejecutar los escenarios de forma correcta con la api de automatización Kraken con Faker:
 ------------------
   1. Tener funcionando Ghost en su versión 3.42.5 de forma local, asegurandose que el puerto de salida es http://localhost:2368/
   2. Tener configurado Kraken en la maquina en la que se vaya a ejecutar la carpeta con las pruebas.
-  3. Para cada una de las pruebas detalladas en los .feature, se debe tener las credenciales de acceso como administrador Ghost.
-  4. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile setup.
-  5. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile run.
-  6. La herramienta Kraken se ejecutará y podra visualizar los snapshots de cada una de las pruebas.
-  7. Para visualizar el reporte en html puede hacerlo desde la ruta: "reports/*" en cada carpeta se encuentra las funcionalidades y en cada funcionalidad puede visualizar los 4 escenarios propuestos.
+  3. Tener ChomeDriver con la version del navegador que se este usando.
+  4. Para cada una de las pruebas detalladas en los .feature, se debe tener las credenciales de acceso como administrador Ghost.
+  5. Los datos usados en las pruebas son : ma.zapataf@uniandes.edu.co como usuario admin y misomazf88 como contraseña.
+  6. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile setup y seleccionar 3 dispostivos web.
+  7. Ejecutar por medio de consola el siguiente comando: bundle exec kraken-mobile run.
+  8. La herramienta Kraken se ejecutará y podra visualizar los snapshots de cada una de las pruebas.
+  9. Para visualizar el reporte en html puede hacerlo desde la ruta: "reports/*" en cada carpeta se encuentra cada uno de los 20 escenarios propuestos, para cada escenario se        cuenta con 3 datos aleatorios ingresados a los campos usando faker.
 
-# Funcionalidades bajo prueba en GHOST 3.42.5 con data aleatoria usando Kraken
+# Funcionalidades bajo prueba en GHOST 3.42.5 con data aleatoria usando Faker en Kraken
 ## Administración Post
 * *Primer escenario (Crear un Post)*
   ------------------
