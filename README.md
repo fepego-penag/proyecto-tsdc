@@ -7,7 +7,7 @@
 | Miguel Angel Zapata Fraile          | ma.zapataf@uniandes.edu.co                                      |
 | Carlos Felipe Peña Gómez            | cf.pena1138@uniandes.edu.co                                     |
 
-# Instrucciónes Pruebas con datos Aleatorios Faker - Cypress
+# Instrucciónes Pruebas con datos Aleatorios Faker - Cypress (Estrategía 3 escenario aleatorio)
 Se realizaron escenarios de pruebas bajo la estrategia de escenarios aleatorios usando Faker como herramienta de generación de datos. Las pruebas se encuentran en cypress/integration/datos-aleatorios-faker.
 
 Cada escenario utilizado fue probado creando diferentes entradas no deterministicas que cambian en una nueva ejecución, probando diferentes longitudes, caracteres especiales, cadenas vacías y forzando a generar errores sobre campos y formularios. 
@@ -260,7 +260,7 @@ NOTA: el script solamente funciona si existe el mismo numero de escenarios versi
   8. La herramienta Kraken se ejecutará y podra visualizar los snapshots de cada una de las pruebas.
   9. Para visualizar el reporte en html puede hacerlo desde la ruta: "reports/*" en cada carpeta se encuentra cada uno de los 20 escenarios propuestos, para cada escenario se        cuenta con 3 datos aleatorios ingresados a los campos usando faker.
 
-# Funcionalidades bajo prueba en GHOST 3.42.5 con data aleatoria usando Faker en Kraken
+# Funcionalidades bajo prueba en GHOST 3.42.5 con data aleatoria usando Faker en Kraken (Estrategía 1 pool de datos a-priori)
 ## Administración Post
 * *Primer escenario (Crear un Post)*
   ------------------
