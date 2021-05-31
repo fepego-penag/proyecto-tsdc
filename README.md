@@ -17,7 +17,12 @@ A continuación se agrega el link del archivo en excel que contiene el inventari
 # Video explicatorio de la entrega semana 8
 A continuación se agrega el link del archivo mp4 que contiene el video explicatorio de los entregables de la semana 8.
 
-# Instrucciónes Pruebas con datos Aleatorios Faker - Cypress (Estrategía 3 escenario aleatorio)
+# Instrucciones para ejecutar las pruebas de reconocimiento Monkey Testing.
+Se realizaron dos configuraciones para aplicar las pruebas de reconocimiento un monkey sin ningún tipo de heuristica y un smart Monkey el cual es capaz de saltar en eventos aleatorios siempre y cuando existan en el DOM de la aplicación Ghost 3.42.5
+
+Para ejecutar esta prueba, simplemente puede ejecutar cypress open y encontrara en la carpeta integration la carpeta monkey que contiene dos scripts los cuales puede ejecutar y genera un reporte con video en la carpeta results en el directorio principal del repositorio
+
+# Instrucciones Pruebas con datos Aleatorios Faker - Cypress (Estrategía 3 escenario aleatorio)
 Se realizaron escenarios de pruebas bajo la estrategia de escenarios aleatorios usando Faker como herramienta de generación de datos. Las pruebas se encuentran en cypress/integration/datos-aleatorios-faker.
 
 Cada escenario utilizado fue probado creando diferentes entradas no deterministicas que cambian en una nueva ejecución, probando diferentes longitudes, caracteres especiales, cadenas vacías y forzando a generar errores sobre campos y formularios. 
