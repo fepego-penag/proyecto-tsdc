@@ -22,7 +22,7 @@ https://youtu.be/sN8K3U31mxg
 # Retrospectiva
 A continuación se agrega el link de la retrospectiva realizada por el grupo de trabajo en función del proceso realizado en pruebas automatizadas:
 [Retrospectiva pruebas automatizadas.pdf](https://github.com/fepego-penag/proyecto-tsdc/files/6567592/Retrospectiva.pruebas.automatizadas.pdf)
-[Enlace aplicación de elaboración: Miro] https://miro.com/welcomeonboard/O8kHH4CT5hk8TaMsaZa4cser0Pnq6pEj305cq0Ba7DauomuiVgkOmBvIlAlq9Ohy
+[Enlace aplicación de elaboración: Miro] (https://miro.com/welcomeonboard/O8kHH4CT5hk8TaMsaZa4cser0Pnq6pEj305cq0Ba7DauomuiVgkOmBvIlAlq9Ohy)
 
 # Registro de incidencias de acuerdo al resultado de la estrategía de pruebas
 *Se encuentran reportadas las incidencias en formato issues del repositorio*
