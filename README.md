@@ -17,6 +17,10 @@ A continuación se agrega el link del archivo en excel que contiene el inventari
 # Video explicatorio de la entrega semana 8
 A continuación se agrega el link del archivo mp4 que contiene el video explicatorio de los entregables de la semana 8.
 
+# Retrospectiva
+A continuación se agrega el link de la retrospectiva realizada por el grupo de trabajo en función del proceso realizado en pruebas automatizadas:
+[Retrospectiva pruebas automatizadas.pdf](https://github.com/fepego-penag/proyecto-tsdc/files/6567592/Retrospectiva.pruebas.automatizadas.pdf)
+
 # Registro de incidencias de acuerdo al resultado de la estrategía de pruebas
 *Se encuentran reportadas las incidencias en formato issues del repositorio*
 
