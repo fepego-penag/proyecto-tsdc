@@ -1,0 +1,9 @@
+{
+    "url": "http://localhost:2368/ghost/#/signin",
+    "headless": true,
+    "depthLevels": 1,
+    "inputValues": true,
+    "values": {"ember8": "ma.zapataf@uniandes.edu.co",
+        "ember10": "misomazf88"},
+    "browsers": ["chromium"]
+}
