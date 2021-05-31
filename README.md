@@ -29,6 +29,11 @@ Se realizaron dos configuraciones para aplicar las pruebas de reconocimiento un 
 
 Para ejecutar esta prueba, simplemente puede ejecutar cypress open y encontrara en la carpeta integration la carpeta monkey que contiene dos scripts los cuales puede ejecutar y genera un reporte con video en la carpeta results en el directorio principal del repositorio
 
+# Instrucciones para ejecutar las pruebas de reconocimiento RIPuppet.
+Se realizaron dos configuraciones para aplicar las pruebas de reconocimiento con RIPuppet sin ningún tipo de heuristica el cual es capaz de generar estados de ejecucion de pruebas sobre el login de la aplicacion aplicación Ghost 3.42.5
+
+Para ejecutar esta prueba, simplemente puede ejecutar npm install sobre la raiz del proyecto y luego node index.js para ejecutar la prueba, encontrara en la carpeta results la  donde encontrara los reportes en formato html.
+
 # Instrucciónes Pruebas con datos Aleatorios Mockaroo - Cypress (Estrategía 1 escenario a priori)
 Se realizaron escenarios de pruebas bajo la estrategia de escenarios aleatorios usando Mockaroo como herramienta de generación de datos. Las pruebas se encuentran en cypress/integration/pool-datos-a-priori.
 
