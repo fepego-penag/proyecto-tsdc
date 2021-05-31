@@ -14,6 +14,9 @@
 A continuación se agrega el link del archivo en excel que contiene el inventario de pruebas manuales realizadas en la versión de Ghost 3.42.5
 [Inventario de pruebas manuales.xlsx](https://github.com/fepego-penag/proyecto-tsdc/files/6567404/inventario-pruebas-exploratorias.1.xlsx)
 
+# Video explicatorio de la entrega semana 8
+A continuación se agrega el link del archivo mp4 que contiene el video explicatorio de los entregables de la semana 8.
+
 # Instrucciónes Pruebas con datos Aleatorios Faker - Cypress (Estrategía 3 escenario aleatorio)
 Se realizaron escenarios de pruebas bajo la estrategia de escenarios aleatorios usando Faker como herramienta de generación de datos. Las pruebas se encuentran en cypress/integration/datos-aleatorios-faker.
 
