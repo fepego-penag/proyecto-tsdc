@@ -17,6 +17,7 @@ A continuación se agrega el link del archivo en excel que contiene el inventari
 
 # Video explicatorio de la entrega semana 8
 A continuación se agrega el link del archivo mp4 que contiene el video explicatorio de los entregables de la semana 8.
+https://youtu.be/sN8K3U31mxg
 
 # Retrospectiva
 A continuación se agrega el link de la retrospectiva realizada por el grupo de trabajo en función del proceso realizado en pruebas automatizadas:
