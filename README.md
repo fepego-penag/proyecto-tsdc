@@ -8,7 +8,8 @@
 | Carlos Felipe Peña Gómez            | cf.pena1138@uniandes.edu.co                                     |
 
 # Estrategía de pruebas 
-<<Miguel aca va el documento de al estrategía de pruebas>>
+A continuación se agrega el link del archivo en pdf que contiene la estrategia de pruebas para la versión de Ghost 3.42.5
+[Estrategia de pruebas semana 8.pdf](https://github.com/fepego-penag/proyecto-tsdc/files/6567688/Estrategia.de.pruebas.semana.8.pdf)
 
 # Inventario de pruebas manuales
 A continuación se agrega el link del archivo en excel que contiene el inventario de pruebas manuales realizadas en la versión de Ghost 3.42.5
