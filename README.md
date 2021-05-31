@@ -10,6 +10,9 @@
 # Estrategía de pruebas 
 <<Miguel aca va el documento de al estrategía de pruebas>>
 
+# Inventario de pruebas manuales
+[Inventario de pruebas manuales.xlsx](https://github.com/fepego-penag/proyecto-tsdc/files/6567404/inventario-pruebas-exploratorias.1.xlsx)
+
 # Instrucciónes Pruebas con datos Aleatorios Faker - Cypress (Estrategía 3 escenario aleatorio)
 Se realizaron escenarios de pruebas bajo la estrategia de escenarios aleatorios usando Faker como herramienta de generación de datos. Las pruebas se encuentran en cypress/integration/datos-aleatorios-faker.
 
