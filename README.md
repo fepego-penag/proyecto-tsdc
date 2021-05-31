@@ -1,4 +1,4 @@
-# Pruebas automatizadas Entregable Semana 7
+# Pruebas automatizadas Entregable Semana 8
 ## Integrantes
 | Nombre                              | Correo                                                          |
 | ----------------------------------- | ----------------------------------------------------------------|
@@ -6,6 +6,9 @@
 | Jhonnatan Eduardo Zamudio Palacios  | j.zamudiop@uniandes.edu.co                                      |
 | Miguel Angel Zapata Fraile          | ma.zapataf@uniandes.edu.co                                      |
 | Carlos Felipe Peña Gómez            | cf.pena1138@uniandes.edu.co                                     |
+
+# Estrategía de pruebas 
+<<Miguel aca va el documento de al estrategía de pruebas>>
 
 # Instrucciónes Pruebas con datos Aleatorios Faker - Cypress (Estrategía 3 escenario aleatorio)
 Se realizaron escenarios de pruebas bajo la estrategia de escenarios aleatorios usando Faker como herramienta de generación de datos. Las pruebas se encuentran en cypress/integration/datos-aleatorios-faker.
